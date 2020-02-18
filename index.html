@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>My web page</title>
+    <link rel="stylesheet", href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+        <div>The logo</div>
+        <div id="slogan">The header slogan</div>
+        <div id="search">
+            <form method="GET">
+                <input id="myInput" type="text" name="keyword" value="" onkeypress="keyPless()"> <!-- edited -->
+                <i class="material-icons">search</i>
+            </form>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li>Menu 1</li>
+            <li>Menu 2</li>
+            <li>Menu 3</li>
+            <li>Menu 4</li>
+        </ul>
+    </nav>
+    <div id="main">
+        <div id="main-content">
+            <h3> The main content go here</h3><br>
+            <p id="demo"></p>
+        </div>
+        <div id="sidebar">
+            <h3> Sidebar </h3>
+            <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+                <li>Feature 4</li>
+                <li>Feature 5</li>
+                <li>Feature 6</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <ol>
+            <li>Extra info 1</li>
+            <li>Extra info 1</li>
+        </ol>
+        <h3> The footer</h3>
+        <div id="scroll">
+            <a href="javascript:void(0);" onclick="scrollToTop()"> 
+                <i class="material-icons">arrow_drop_up</i>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
